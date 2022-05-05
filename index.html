@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover from</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="fix_menu">
+        <div class="box clearfix">
+            <div class="fix fix_a a fl zhund">
+                <i class="fa-solid fa-phone ks-phoneFooterIcon"></i>Request Instant Call Back<a class="zet i2"
+                    style="transform: rotate(0deg);"><i class="fa-solid fa-caret-up ks-upcaretIcon"></i></a>
+                <div class="foot_form_01" id="ksFooterHoverSection01">
+                    <form>
+                        <div class="form_tit fw">SURE,we will call you back,please leave us your information:</div>
+                        <div class="form_input">
+                            <span class="form_detail" style="padding-left:10px;width:156px"> Your Company: </span>
+                            <input type="text" name="company">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Your Name: </span>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Business Email: </span>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Phone Number: </span>
+                            <input type="text" name="phone">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail" style="padding-left:10px;width:156px">Fax Number: </span>
+                            <input type="text" name="fax">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Required Product: </span>
+                            <input type="text" name="product">
+                        </div>
+                        <div class="form_tit fw" style="color:#000;">What is the best time to contact you ?</div>
+                        <div class="form_input_02 input_lh">
+                            <input type="checkbox" name="time[]" value="8:00 AM -12:00 AM">&nbsp; 8:00 AM -12:00 AM
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="time[]" value="1:00 PM - 6:00 PM">&nbsp; 1:00 PM - 6:00 PM
+                        </div>
+                        <div class="form_tit fw" style="color:#000;">What is your perferred method to contact you ?
+                        </div>
+                        <div class="form_input_02 input_lh">
+                            <input type="checkbox" name="method[]" value="Telephone">&nbsp; Telephone
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="method[]" value="Email">&nbsp; Email &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="method[]" value="Fax">&nbsp; Fax
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Required Fields</span>
+                        </div>
+                        <input type="hidden" name="act" value="callback">
+                        <div class="sub_div"><input class="sub_01" type="submit" value="Please Call Me"></div>
+                    </form>
+                </div>
+            </div>
+            <div class="bor fl"></div>
+            <div class="fix fix_b fl zhund">
+                <i class="fa-solid fa-envelope ks-envelopIcon"></i>
+                <span class="s_h">Get a FREE Quote Now</span>
+                <a class="zet i2" style="transform: rotate(0deg);"><i
+                        class="fa-solid fa-caret-up ks-upcaretIcon"></i></a>
+                <div class="foot_form_02" id="ksFooterHoverSection02">
+                    <form action="" method="post" onsubmit="">
+                        <div class="form_tit" style="height:20px;"></div>
+                        <div class="form_input">
+                            <span class="form_detail" style="padding-left:10px;width:156px"> Company Name: </span>
+                            <input type="text" name="company">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Contact Person: </span>
+                            <input type="text" name="username">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail"><i>*</i> Business Email: </span>
+                            <input type="text" name="useremail">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail" style="padding-left:10px;width:156px">Phone Number: </span>
+                            <input type="text" name="phone">
+                        </div>
+                        <div class="form_input">
+                            <span class="form_detail" style="padding-left:8px;width:156px"><i>*</i> Country/Region:
+                            </span>
+                            <input type="text" name="country">
+                        </div>
+                        <div class="form_tit fw" style="color:#000;"><i>*</i> Which type of your main business ?</div>
+                        <div class="form_input_02 input_lh">
+                            <span><input type="checkbox" name="type[]" value="Individual">&nbsp; Individual</span>
+                            <span><input type="checkbox" name="type[]" value="Distributor">&nbsp; Distributor</span><br>
+                            <span><input type="checkbox" name="type[]" value="End-User">&nbsp; End-User</span>
+                            <span><input type="checkbox" name="type[]" value="Reseller">&nbsp; Reseller</span>
+                        </div>
+                        <div class="form_tit fw" style="color:#000;"><i>*</i> Which products interest you ?</div>
+                        <div class="form_input_02 input_lh">
+                            <span><input type="checkbox" name="product[]" value="Lathe Machine">&nbsp; Lathe
+                                Machine</span>
+                            <span><input type="checkbox" name="product[]" value="Milling Machine">&nbsp; Milling
+                                Machine</span>
+                            <span><input type="checkbox" name="product[]" value="Drilling Machine">&nbsp; Drilling
+                                Machine</span><br>
+                            <span><input type="checkbox" name="product[]" value="CNC Machine">&nbsp; CNC Machine</span>
+                            <span><input type="checkbox" name="product[]" value="Machine Tool">&nbsp; Machine
+                                Tool</span>
+                            <span><input type="checkbox" name="product[]" value="Spare Parts">&nbsp; Spare Parts</span>
+                        </div>
+                        <div class="form_input">
+                            <span class="form_tit fw" style="color:#000;">&nbsp;&nbsp;<i>*</i> Required Fields</span>
+                        </div>
+                        <input type="hidden" name="act" value="quote">
+                        <div class="sub_div"><input class="sub_02" type="submit" value="Submit Now"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- cdn link start -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</script>
+<!-- // cdn link end -->
+<script src="script.js"></script>
+
+</html>
